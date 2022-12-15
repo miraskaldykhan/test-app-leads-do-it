@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
               child: matchStatusText(
                 status: (event.strStatus == "1H") || (event.strStatus == "2H")
                     ? "Live"
-                    : event.strStatus ?? "Default",
+                    : event.strStatus ?? "Def",
                 color: (event.strStatus == "1H") || (event.strStatus == "2H")
                     ? const Color(0xffff7b31)
                     : const Color(0xffB9B9B9),
